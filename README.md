@@ -15,5 +15,6 @@ Questions that were solved in this project:
 2. SQL Queries here performed in Azure Data Studio to answer some questions about the data:
   - The data from 2018, 2019, and 2020 were merged using UNION for future use [SQLUnion](https://github.com/WarlockBlue/HotelRevenue/tree/main/SQL_queries/SQLUnion.sql).
   - Looking at the data, we can use LEFT JOIN to join the yearly data, with the market_segment, and meal_cost data to unify all information in one place       for future analysis [SQLJoinTables](https://github.com/WarlockBlue/HotelRevenue/blob/main/SQL_queries/SQLJoinTables.sql).
-  - Using the yearly data we can obtain the revenue per year per month as shown below:
+  - Using the yearly data and the query [SQLRevenueTable](https://github.com/WarlockBlue/HotelRevenue/blob/main/SQL_queries/SQLRevenueTable.sql) we can obtain the revenue per year per month and insert it in a new table called Revenue:
+  ![Revenue Table](RevenueYearMonth.png)
   
